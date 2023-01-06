@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+    background-color: black;
+}
+.tablero{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: green;
+    float: left;
+}
+.tablero div{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+}
+.container{
+    float: left;
+    width: 20%;
+    padding: 50px;
+}
+.snake{
+    background-color: yellow;
+    border-radius: 10px;
+}
+.comida{
+    background-color: red;
+    border-radius: 10px;
+}
+.comidaChetada{
+    background-color: purple;
+    border-radius: 10px;
+}
+button{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.score, .live{
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    font-size: 26px;
+    color: white;
+}
